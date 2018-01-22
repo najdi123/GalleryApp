@@ -4,6 +4,7 @@ import './LightBoxSample.css';
 import pic1 from './images/01.jpg';
 import pic2 from './images/02.jpg';
 import pic3 from './images/03.jpg';
+import pic4 from './images/04.jpg';
 
 
 const images = [pic1, pic2, pic3];
@@ -38,6 +39,7 @@ class LightBoxSample extends React.Component{
                         <img src={pic1} className="thumbnail" onClick={() => this.setState({ isOpen: true, photoIndex:0 })} />
                         <img src={pic2} className="thumbnail"  onClick={() => this.setState({ isOpen: true, photoIndex:1 })} />
                         <img src={pic3} className="thumbnail"  onClick={() => this.setState({ isOpen: true, photoIndex:2 })} />
+                        <img src={pic4} className="thumbnail"  onClick={() => this.setState({ isOpen: true, photoIndex:3 })} />
 
                     </div>
 
