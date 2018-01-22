@@ -7,7 +7,7 @@ import pic3 from './images/03.jpg';
 
 
 const images = [pic1, pic2, pic3];
-//
+//ss
 // const images = [
 //     '../images/01.jpg',
 //     '../images/02.jpg',
